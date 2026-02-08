@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nuzaer Omar | Research Portfolio</title>
+  <meta name="description" content="Nuzaer Omar — PhD Candidate (Missouri S&T). Adversarial robustness, LLM security, unsupervised learning." />
+  <link rel="icon" href="assets/img/favicon.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- Top Nav -->
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#home" aria-label="Go to top">
+        <span class="brand__dot"></span>
+        <span class="brand__text">Nuzaer Omar</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#skills">Skills</a>
+        <a href="#service">Awards & Service</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Drawer -->
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer__panel">
+      <div class="drawer__head">
+        <strong>Menu</strong>
+        <button class="drawer__close" id="drawerClose" aria-label="Close navigation">✕</button>
+      </div>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#skills">Skills</a>
+      <a href="#service">Awards & Service</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <main id="home" class="hero">
+    <div class="container hero__grid">
+      <div class="hero__left">
+        <h1>Nuzaer Omar</h1>
+        <p class="hero__subtitle">
+          PhD Candidate, Computer Science — Missouri University of Science &amp; Technology
+        </p>
+        <p class="hero__lead">
+          I build <b>robust and trustworthy ML/LLM systems</b>, with a focus on <b>black-box/zero-access adversarial attacks</b>,
+          <b>LLM security</b>, and <b>unsupervised representation learning</b>.
+        </p>
+
+        <div class="pillrow" aria-label="Quick facts">
+          <span class="pill">Wireless to Cloud Computing (W2C) Lab</span>
+          <span class="pill">Advisor: Dr. Sanjay Madria</span>
+          <span class="pill">CGPA: 4.00/4.00</span>
+        </div>
+
+        <div class="cta">
+          <!-- Replace links as you like -->
+          <a class="btn" href="https://github.com/nuzaeromar" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn" href="https://scholar.google.com/citations?hl=en&user=Cq3gfl4AAAAJ" target="_blank" rel="noreferrer">Google Scholar</a>
+          <a class="btn" href="https://www.linkedin.com/in/nuzaer-omar-83b5961ab/" target="_blank" rel="noreferrer">LinkedIn</a>
+
+          <!-- Optional: if you upload a PDF into assets/files -->
+          <a class="btn btn--ghost" href="assets/files/Nuzaer_CV.pdf" target="_blank" rel="noreferrer">Download CV</a>
+        </div>
+      </div>
+
+      <aside class="hero__right">
+        <div class="card profile">
+          <img class="profile__img" src="assets/img/profile.jpg" alt="Profile photo of Nuzaer Omar" />
+          <div class="profile__meta">
+            <div class="profile__title">Graduate Research Assistant</div>
+            <div class="profile__org">Missouri S&amp;T · W2C Lab</div>
+            <div class="profile__loc">Rolla, Missouri, USA</div>
+            <div class="profile__email">
+              <a href="mailto:nom8m@umsystem.edu">nom8m@umsystem.edu</a>
+              <span class="muted"> · </span>
+              <a href="mailto:nuzaeromar97@gmail.com">nuzaeromar97@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About</h2>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>Bio</h3>
+          <p>
+            I am a PhD candidate in Computer Science at Missouri University of Science and Technology (expected Jul 2027),
+            working in the Wireless to Cloud Computing Lab under Dr. Sanjay Madria.
+            Previously, I was a Lecturer in the Department of Electrical &amp; Electronic Engineering at Port City International University (PCIU), Bangladesh.
+          </p>
+          <p class="muted">
+            Interests include adversarial attacks/defenses in LLMs, robust &amp; reliable LLMs, black-box &amp; zero-access LLM security,
+            and context-aware / phonetic perturbations.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Education</h3>
+          <ul class="timeline">
+            <li>
+              <div class="t__when">Aug 2022 – Jul 2027 (expected)</div>
+              <div class="t__what"><b>PhD, Computer Science</b> — Missouri University of Science &amp; Technology</div>
+              <div class="t__meta">Advisor: Dr. Sanjay Madria · CGPA: 4.00/4.00</div>
+            </li>
+            <li>
+              <div class="t__when">2016 – 2021</div>
+              <div class="t__what"><b>BSc, Electrical &amp; Electronic Engineering</b> — Chittagong University of Engineering &amp; Technology</div>
+              <div class="t__meta">CGPA: 3.69/4.00</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Research -->
+  <section id="research" class="section alt">
+    <div class="container">
+      <h2>Research</h2>
+
+      <div class="grid3">
+        <div class="card">
+          <h3>Adversarial Attacks (Black-box / Zero-access)</h3>
+          <p>
+            Training-free adversarial text attack pipelines that combine MLM-based perturbations,
+            semantic similarity constraints, topic-guided insertions, and phonetic perturbations.
+          </p>
+          <ul class="bullets">
+            <li>Improved black-box attack success by up to <b>15%</b> while keeping semantic similarity above <b>80%</b>.</li>
+            <li>Feedback-optimized attacker with iterative refinement under perplexity + similarity constraints.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Unsupervised Re-labeling &amp; Robustness</h3>
+          <p>
+            Unsupervised pipelines for correcting noisy labels and improving robustness via representation learning.
+          </p>
+          <ul class="bullets">
+            <li>Corrected mislabeled neutral samples: <b>+10% F1</b>, and reduced attack success by <b>14%</b> on multiple LLM classifiers.</li>
+            <li>Uses Seq2Seq autoencoding, contrastive learning, and KL-divergence clustering components.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Beyond NLP</h3>
+          <p>
+            Experience in biomedical signal processing and deep learning for ECG-based myocardial infarction detection,
+            plus applied ML projects in detection and segmentation.
+          </p>
+          <ul class="bullets">
+            <li>ECG temporal-feature framework achieved AUC <b>99.25%</b> and F1 <b>98.86%</b>.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Publications -->
+  <section id="publications" class="section">
+    <div class="container">
+      <h2>Publications</h2>
+
+      <div class="card">
+        <h3>Conference</h3>
+        <ol class="pubs">
+          <li>
+            <b>Leveraging Pre-Trained Language Models for Realistic Adversarial Attacks</b><br/>
+            Nuzaer Omar, Sanjay Madria, Ademola Adesokan<br/>
+            <span class="muted">IEEE International Conference on Big Data, 2025</span>
+          </li>
+          <li>
+            <b>Detection of Myocardial Infarction from ECG Signal Through Combining CNN and Bi-LSTM</b><br/>
+            Nuzaer Omar, M. U., M. Dey<br/>
+            <span class="muted">ICECE, 2020 · DOI: 10.1109/ICECE51571.2020.9393090</span>
+          </li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h3>Journal</h3>
+        <ol class="pubs">
+          <li>
+            <b>Temporal Feature-Based Classification into Myocardial Infarction and other CVDs Merging CNN and Bi-LSTM from ECG signal</b><br/>
+            Nuzaer Omar, M. U., M. Dey<br/>
+            <span class="muted">IEEE Sensors Journal, 2021 · DOI: 10.1109/JSEN.2021.3079241</span>
+          </li>
+        </ol>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section alt">
+    <div class="container">
+      <h2>Projects</h2>
+
+      <div class="grid3">
+        <div class="card">
+          <h3>Modular Black-Box Adversarial Attack Framework</h3>
+          <p class="muted">NLP · LLM Security · Robustness Evaluation</p>
+          <ul class="bullets">
+            <li>Real-time, training-free attack system with MLM perturbations, similarity filters, topic guidance, and phonetics.</li>
+            <li>Designed for practical black-box evaluation settings.</li>
+          </ul>
+          <div class="card__links">
+            <a href="https://github.com/nuzaeromar" target="_blank" rel="noreferrer">Code (GitHub)</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Unsupervised Re-labeling &amp; Robustness Enhancement</h3>
+          <p class="muted">Unsupervised Learning · Clustering · Representation Learning</p>
+          <ul class="bullets">
+            <li>Sim-Text keyword attribution + Seq2Seq autoencoding + contrastive learning + KL clustering.</li>
+            <li>Targets noisy labels and robustness in downstream classifiers.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Computer Vision Projects</h3>
+          <p class="muted">Detection · Segmentation</p>
+          <ul class="bullets">
+            <li>YOLOv5 object detection on FLIR thermal dataset for low-visibility robustness.</li>
+            <li>Semantic segmentation on CARLA for pixel-level road scene parsing.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>More highlights</h3>
+        <div class="grid2">
+          <div>
+            <ul class="bullets">
+              <li><b>Chess</b>: from-scratch chess with optimized move generation and search.</li>
+              <li><b>NN from scratch</b>: binary classifier with custom init, gradients, and GD training.</li>
+            </ul>
+          </div>
+          <div class="muted">
+            Tip: if you want this section to look like Swargo’s “project cards”, add thumbnails into <code>assets/img/</code>
+            and include <code>&lt;img&gt;</code> tags inside each project card.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Teaching -->
+  <section id="teaching" class="section">
+    <div class="container">
+      <h2>Teaching</h2>
+
+      <div class="card">
+        <h3>PCIU (Fall 2021) — Course Materials</h3>
+        <p class="muted">
+          These are public course-material pages from my prior lecturer role at Port City International University (PCIU).
+        </p>
+
+        <div class="grid2">
+          <div>
+            <ul class="links">
+              <li><a href="https://sites.google.com/view/nuzaeromar/students-corner/eee-411-elements-of-microprocessor-robotics-control-engineering" target="_blank" rel="noreferrer">EEE 411: Elements of Microprocessor &amp; Robotics Control Engineering</a></li>
+              <li><a href="https://sites.google.com/view/nuzaeromar/students-corner/eee-262-computing-method-and-technique-for-engineering-analysis" target="_blank" rel="noreferrer">EEE 262: Computing Method &amp; Technique for Engineering Analysis</a></li>
+              <li><a href="https://sites.google.com/view/nuzaeromar/students-corner/eee-334-control-system-laboratory" target="_blank" rel="noreferrer">EEE 334: Control System Laboratory</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul class="links">
+              <li><a href="https://sites.google.com/view/nuzaeromar/students-corner/cse-124-electronics-sessional" target="_blank" rel="noreferrer">CSE 124: Electronics Sessional</a></li>
+              <li><a href="https://sites.google.com/view/nuzaeromar/students-corner/eee-312-measurement-and-instrumentation-laboratory" target="_blank" rel="noreferrer">EEE 312: Measurement &amp; Instrumentation Laboratory</a></li>
+              <li><a href="https://sites.google.com/view/nuzaeromar/students-corner/eee-332-microprocessor-and-interfacing-laboratory" target="_blank" rel="noreferrer">EEE 332: Microprocessor &amp; Interfacing Laboratory</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="muted">
+          If you prefer hosting the PDFs directly on GitHub Pages (instead of linking out), download the PDFs and place them in <code>assets/files/</code>, then update links.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h2>Skills</h2>
+
+      <div class="grid3">
+        <div class="card">
+          <h3>Programming</h3>
+          <p>Python, MATLAB, C/C++, R, Verilog, x86 Assembly</p>
+        </div>
+
+        <div class="card">
+          <h3>ML / NLP</h3>
+          <p>
+            PyTorch, TensorFlow, Hugging Face, scikit-learn, OpenAttack, spaCy, NLTK,
+            Transformers (BERT, T5, GPT, BART, LLaMA), contrastive learning, clustering
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Systems &amp; Tools</h3>
+          <p>
+            SQL/MySQL, MongoDB, Redis, Git, Docker, Slurm, LaTeX/Overleaf, OpenCV,
+            Ollama, vLLM
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Awards & Service -->
+  <section id="service" class="section">
+    <div class="container">
+      <h2>Awards &amp; Service</h2>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>Awards &amp; Programs</h3>
+          <ul class="bullets">
+            <li>Kummer Innovation &amp; Entrepreneurship Doctoral Fellows Program (2022–2026)</li>
+            <li>NSF Local I-CORPS, Great Lakes Region (2025)</li>
+            <li>Mentored a PCIU team: Top-20 placement in “Mujib 100 Idea Contest” (2022)</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Professional Service</h3>
+          <ul class="bullets">
+            <li>Reviewer: ICDM 2025, IEEE Big Data 2024–2025, ECML 2025, etc.</li>
+            <li>IEEE member (per prior profile materials)</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2>Contact</h2>
+
+      <div class="card">
+        <p>
+          Email:
+          <a href="mailto:nom8m@umsystem.edu">nom8m@umsystem.edu</a>
+          <span class="muted"> · </span>
+          <a href="mailto:nuzaeromar97@gmail.com">nuzaeromar97@gmail.com</a>
+        </p>
+        <p class="muted">
+          For older PCIU contact details and legacy materials, see the original Google Sites profile.
+        </p>
+        <div class="footer">
+          © <span id="year"></span> Nuzaer Omar · Built with GitHub Pages
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // Footer year
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Mobile drawer
+    const navToggle = document.getElementById("navToggle");
+    const drawer = document.getElementById("drawer");
+    const drawerClose = document.getElementById("drawerClose");
+
+    function openDrawer() {
+      drawer.classList.add("drawer--open");
+      drawer.setAttribute("aria-hidden", "false");
+    }
+    function closeDrawer() {
+      drawer.classList.remove("drawer--open");
+      drawer.setAttribute("aria-hidden", "true");
+    }
+
+    navToggle?.addEventListener("click", openDrawer);
+    drawerClose?.addEventListener("click", closeDrawer);
+    drawer?.addEventListener("click", (e) => {
+      if (e.target === drawer) closeDrawer();
+    });
+
+    // Close drawer when a link is clicked
+    drawer?.querySelectorAll("a").forEach(a => a.addEventListener("click", closeDrawer));
+  </script>
+</body>
+</html>
