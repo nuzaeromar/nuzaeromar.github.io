@@ -323,3 +323,13 @@ h3{margin:.1rem 0 .6rem; font-size:1.1rem; letter-spacing:.2px}
   .nav{display:none}
   .nav__toggle{display:inline-flex}
 }
+/* Make hyperlinks blue */
+a,
+a:visited {
+  color: #1e66ff;
+}
+
+a:hover,
+a:focus {
+  color: #0b4ddb;
+}
