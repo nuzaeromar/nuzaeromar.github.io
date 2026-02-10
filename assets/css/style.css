@@ -41,6 +41,10 @@ code{background:rgba(255,255,255,.06); padding:.15rem .35rem; border-radius:10px
   color: #2563eb;   /* blue */
   font-weight: 700; /* bold (optional) */
 }
+
+#about h2 {
+  color: #2563eb;   /* blue */
+}
 /* 
 .topbar{
   position:sticky;
