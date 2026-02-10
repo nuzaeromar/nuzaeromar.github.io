@@ -37,6 +37,10 @@ code{background:rgba(255,255,255,.06); padding:.15rem .35rem; border-radius:10px
   width:min(var(--max), calc(100% - 2rem));
   margin:0 auto;
 }
+.accent {
+  color: #2563eb;   /* blue */
+  font-weight: 700; /* bold (optional) */
+}
 /* 
 .topbar{
   position:sticky;
