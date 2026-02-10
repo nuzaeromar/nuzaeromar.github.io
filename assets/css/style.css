@@ -42,9 +42,10 @@ code{background:rgba(255,255,255,.06); padding:.15rem .35rem; border-radius:10px
   font-weight: 700; /* bold (optional) */
 }
 
-#about h2 {
-  color: #2563eb;   /* blue */
+.section-title-blue {
+  color: #2563eb;
 }
+
 /* 
 .topbar{
   position:sticky;
