@@ -21,6 +21,7 @@
       <nav class="nav" aria-label="Primary">
         <a href="#about">About</a>
         <a href="#education">Education</a>
+        <a href="#employment">Employment</a>
         <a href="#research">Research</a>
         <a href="#publications">Publications</a>
         <a href="#projects">Projects</a>
@@ -43,6 +44,7 @@
       </div>
       <a href="#about">About</a>
       <a href="#education">Education</a>
+      <a href="#employment">Employment</a>
       <a href="#research">Research</a>
       <a href="#publications">Publications</a>
       <a href="#projects">Projects</a>
@@ -59,7 +61,7 @@
       <div class="hero__left">
         <h1 class="section-title-blue">Nuzaer Omar</h1>
         <p class="hero__subtitle">
-          PhD Candidate, Computer Science — Missouri University of Science &amp; Technology
+          PhD Candidate at Missouri S&amp;T · Research Intern at Argonne National Laboratory
         </p>
         <p class="hero__lead">
           I build <b>robust and trustworthy ML/LLM systems</b>, with a focus on <b>black-box/zero-access adversarial attacks</b>,
@@ -91,7 +93,10 @@
         <div class="card profile">
           <img class="profile__img" src="assets/img/nuz.jpg" alt="Profile photo of Nuzaer Omar" />
           <div class="profile__meta">
-            <div class="profile__title">Graduate Research Assistant</div>
+            <div class="profile__title">Research Intern</div>
+            <div class="profile__org">Argonne National Laboratory</div>
+            <div class="profile__loc">Lemont, Illinois, USA</div>
+            <div class="profile__title" style="margin-top: 12px;">Graduate Research Assistant</div>
             <div class="profile__org">Missouri S&amp;T · W2C Lab</div>
             <div class="profile__loc">Rolla, Missouri, USA</div>
             <div class="profile__email">
@@ -177,47 +182,208 @@
       </div>
   </section>
 
-  <!-- Research -->
+  <!-- Employment -->
+  <section id="employment" class="section">
+    <div class="container">
+      <h2 class="section-title-blue">Employment History</h2>
+  
+      <div class="card">
+        <ul class="timeline">
+  
+          <li>
+            <div class="t__when">Jun 2026 – Present</div>
+            <div class="t__what">
+              <b>Research Intern</b> — Argonne National Laboratory
+            </div>
+            <div class="t__meta">
+              Lemont, Illinois, USA
+            </div>
+            <p>
+              Conducting research on machine learning and signal-processing methods
+              for gamma-ray source detection, anomaly identification, and robust
+              multimodal modeling.
+            </p>
+          </li>
+  
+          <li>
+            <div class="t__when">Aug 2022 – Present</div>
+            <div class="t__what">
+              <b>Graduate Research Assistant</b> — Wireless to Cloud Computing Lab,
+              Missouri University of Science &amp; Technology
+            </div>
+            <div class="t__meta">
+              Rolla, Missouri, USA · Advisor: Dr. Sanjay Madria
+            </div>
+            <p>
+              Conducting research on robust and reliable language models,
+              adversarial attacks and defenses, unsupervised text clustering,
+              representation learning, and computer vision.
+            </p>
+          </li>
+  
+          <li>
+            <div class="t__when">2021 – 2022</div>
+            <div class="t__what">
+              <b>Lecturer</b> — Port City International University
+            </div>
+            <div class="t__meta">
+              Department of Electrical &amp; Electronic Engineering · Bangladesh
+            </div>
+            <p>
+              Taught programming, electronics, control systems, microprocessors,
+              measurement and instrumentation, and related laboratory courses.
+              Supervised student projects and mentored teams in national competitions.
+            </p>
+          </li>
+  
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research Experience -->
   <section id="research" class="section alt">
     <div class="container">
-      <h2 class="section-title-blue">Research</h2>
-
-      <div class="grid3">
+      <h2 class="section-title-blue">Research Experience</h2>
+  
+      <div class="grid2">
+  
         <div class="card">
-          <h3>Adversarial Attacks (Black-box / Zero-access)</h3>
-          <p>
-            Training-free adversarial text attack pipelines that combine MLM-based perturbations,
-            semantic similarity constraints, topic-guided insertions, and phonetic perturbations.
+          <h3>Modular Feedback-Optimized Black-Box LLM Attack Framework</h3>
+          <p class="muted">
+            LLM Security · Adversarial NLP · Black-Box Evaluation
           </p>
           <ul class="bullets">
-            <li>Improved black-box attack success by up to <b>15%</b> while keeping semantic similarity above <b>80%</b>.</li>
-            <li>Feedback optimized attacker with iterative refinement under perplexity and similarity constraints.</li>
+            <li>
+              Designed a training-free black-box adversarial text attack framework
+              integrating masked-language-model substitutions, phonetic perturbations,
+              and pseudo-log-likelihood-ranked candidate selection.
+            </li>
+            <li>
+              Developed an iterative feedback-optimization process that refines
+              adversarial candidates while preserving fluency, perplexity, and
+              semantic similarity.
+            </li>
+            <li>
+              Improved attack success by up to <b>15%</b> while maintaining semantic
+              similarity above <b>80%</b>.
+            </li>
           </ul>
         </div>
-
+  
         <div class="card">
-          <h3>Robustness through Unsupervised Re-labeling</h3>
-          <p>
-            Unsupervised pipelines for correcting noisy labels and improving robustness via representation learning.
+          <h3>Unsupervised Re-labeling and Robustness Enhancement</h3>
+          <p class="muted">
+            Unsupervised Learning · Representation Learning · Robust NLP
           </p>
           <ul class="bullets">
-            <li>Corrected mislabeled neutral samples: <b>+10% F1</b>, and reduced attack success by <b>14%</b> on multiple LLM classifiers.</li>
-            <li>Uses Seq2Seq autoencoding, contrastive learning, and KL-divergence clustering components.</li>
+            <li>
+              Built an unsupervised pipeline combining Sim-Text keyword attribution,
+              Seq2Seq autoencoding, contrastive representation learning, and
+              KL-divergence-based clustering.
+            </li>
+            <li>
+              Identified and corrected incorrectly labeled neutral samples without
+              requiring additional labeled training data.
+            </li>
+            <li>
+              Improved F1 score by <b>10%</b> and reduced adversarial attack success
+              by <b>14%</b> across multiple language-model classifiers.
+            </li>
           </ul>
         </div>
-
+  
         <div class="card">
-          <h3>Beyond NLP</h3>
-          <p>
-            Experience in biomedical signal processing and deep learning for ECG-based myocardial infarction detection.
+          <h3>LLM-Guided Text Clustering</h3>
+          <p class="muted">
+            Unsupervised Clustering · LLM Reasoning · Semantic Representation
           </p>
           <ul class="bullets">
-            <li>ECG temporal-feature framework achieved AUC <b>99.25%</b> and F1 <b>98.86%</b>.</li>
-            <li>Applied YOLOv5 object detection and segmentation algorithms for a robust framework </li>
+            <li>
+              Developed SCALE, a semantic constraint-aware framework for efficient
+              LLM-guided text clustering.
+            </li>
+            <li>
+              Combined lexicon-guided semantic representations with targeted LLM
+              decisions for uncertain samples.
+            </li>
+            <li>
+              Reduced unnecessary LLM inference while preserving the intended
+              category granularity across multiple text-clustering datasets.
+            </li>
           </ul>
         </div>
+  
+        <div class="card">
+          <h3>Physics-Informed Semantic Attacks on Thermal Object Detectors</h3>
+          <p class="muted">
+            Computer Vision · Adversarial ML · Thermal Imaging
+          </p>
+          <ul class="bullets">
+            <li>
+              Developed a physics-informed adversarial framework using class-aware
+              GAN thermal priors, diffusion-guided object perturbations, and
+              distance-aware contextual manipulation.
+            </li>
+            <li>
+              Evaluated the method on the FLIR dataset and the proposed MineThermal
+              dataset.
+            </li>
+            <li>
+              Achieved approximately <b>76% attack success</b> against YOLOv11 while
+              maintaining perceptual realism, including SSIM of <b>0.850</b> and
+              LPIPS of <b>0.256</b>.
+            </li>
+            <li>
+              Demonstrated transferability across Faster R-CNN, YOLOv11, and RT-DETR.
+            </li>
+          </ul>
+        </div>
+  
+        <div class="card">
+          <h3>Gamma-Ray Source and Anomaly Detection</h3>
+          <p class="muted">
+            Argonne National Laboratory · Signal Processing · Transformer Models
+          </p>
+          <ul class="bullets">
+            <li>
+              Investigating transformer-based and CNN-transformer architectures for
+              identifying radioactive source presence and isotope categories from
+              gamma-ray spectra.
+            </li>
+            <li>
+              Developing temporal spectrum representations, count-rate features,
+              masked-spectrum pretraining, and source-query decoding methods.
+            </li>
+            <li>
+              Exploring robust anomaly-detection strategies for separating source
+              signatures from changing environmental backgrounds.
+            </li>
+          </ul>
+        </div>
+  
+        <div class="card">
+          <h3>Feature-Driven Myocardial Infarction Detection</h3>
+          <p class="muted">
+            Biomedical Signal Processing · ECG · Deep Learning
+          </p>
+          <ul class="bullets">
+            <li>
+              Developed a multi-class myocardial infarction detection framework
+              using 21 temporal ECG features extracted from fiducial points.
+            </li>
+            <li>
+              Reduced feature redundancy and addressed class imbalance while
+              achieving an AUC of <b>99.25%</b> and F1 score of <b>98.86%</b>.
+            </li>
+            <li>
+              Proposed temporal feature-extraction algorithms for reliable and
+              clinically meaningful cardiovascular-disease classification.
+            </li>
+          </ul>
+        </div>
+  
       </div>
-
     </div>
   </section>
 
